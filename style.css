@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.screen{
+    display: flex;
+    height: 100vh;
+}
+
+.leftside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,#539f8651, #FFF,#539f8651);
+}
+
+.leftside img {
+    width: 40%;
+    height: auto;
+    background-size:cover;
+    
+}
+
+.rightside {
+    width: 400px;
+    background-color:#539f8685;
+    padding: 4em;
+}
+
+#login{
+    margin-top: 1.3em; 
+}
+
+#login a{
+    color:black;
+}
+
+.rightside label{
+    display: block;
+    margin-top: 1.3em;
+}
+
+.rightside input{
+    width: 95%;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    padding: 0.6em;
+    font-size: 0.9em;
+    font-weight: 400;
+    background-color: inherit;
+    outline: 0;
+    box-shadow: 5px 10px 18px #539f86a0;
+}
+
+#button input{
+    width: 50%;
+    cursor: pointer;
+}
+
+#button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    color: rgb(172, 60, 60);
+    font-size: 1em;
+    font-weight: 600;
+}
